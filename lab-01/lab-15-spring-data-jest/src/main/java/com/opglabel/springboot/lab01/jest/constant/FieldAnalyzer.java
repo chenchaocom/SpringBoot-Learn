@@ -14,7 +14,7 @@ public class FieldAnalyzer {
      *
      *
      */
-    private static final String IK_MAX_WORD = "ik_max_word";
+    public static final String IK_MAX_WORD = "ik_max_word";
 
 
     /**
@@ -22,5 +22,5 @@ public class FieldAnalyzer {
      *会做最粗粒度的拆分
      */
 
-    private static final String IK_SMART = "ik_smart";
+    public static final String IK_SMART = "ik_smart";
 }
