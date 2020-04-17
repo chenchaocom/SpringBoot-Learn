@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.cc.springboot.labs</groupId>
+		<artifactId>labs-parent</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+	<groupId>com.cc.springboot.lab01.elasticsearch</groupId>
+	<artifactId>lab-01-elasticsearch-demo</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>lab-01-elasticsearch-demo</name>
+	<description>Demo project for Spring Boot</description>
+
+
+	<modules>
+		<module>lab-15-spring-data-elasticsearch</module>
+		<module>lab-15-spring-data-jest</module>
+	</modules>
+</project>
