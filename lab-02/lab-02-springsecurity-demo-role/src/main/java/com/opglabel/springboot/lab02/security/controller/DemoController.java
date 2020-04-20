@@ -1,0 +1,38 @@
+package com.opglabel.springboot.lab02.security.controller;
+
+import org.springframework.security.access.prepost.PreAuthorize;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import javax.annotation.security.PermitAll;
+
+@RestController
+@RequestMapping("/demo")
+public class DemoController {
+
+    @PermitAll
+    @GetMapping("/echo")
+    public String echo(){
+        return "示例返回";
+    }
+
+
+    @GetMapping("/home")
+    public String home(){
+        return "我是首页";
+    }
+
+    @GetMapping("/admin")
+    @PreAuthorize("hasRole('ROLE_ADMIN')")
+    public String admin(){
+        return "我是admin";
+    }
+    @GetMapping("/normal")
+    @PreAuthorize("hasRole('ROLE_NORMAL')")
+    public String normal(){
+        return "我是normal";
+    }
+
+
+}

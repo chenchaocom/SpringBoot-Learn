@@ -1,8 +1,0 @@
-spring:
-  application:
-    name: opglabel-manager
-  cloud:
-    config:
-      uri: http://localhost:9000
-server:
-  port: 8080
