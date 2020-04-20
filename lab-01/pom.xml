@@ -15,7 +15,7 @@
 
 
 	<modules>
-		<module>lab-15-spring-data-elasticsearch</module>
-		<module>lab-15-spring-data-jest</module>
+		<module>lab-01-spring-data-elasticsearch</module>
+		<module>lab-01-spring-data-jest</module>
 	</modules>
 </project>
