@@ -1,0 +1,13 @@
+package com.opglabel.springboot.lab03.resource.api;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("/api/example")
+public class ExampleController {
+    @RequestMapping("/hello")
+    public String hello(){
+        return "word";
+    }
+}
