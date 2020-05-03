@@ -12,6 +12,14 @@
     <name>lab-44</name>
     <description>Demo project for Spring Boot</description>
 
+    <modules>
+        <module>lab-44-nacos-config-demo</module>
+        <module>lab-44-nacos-config-demo-profiles</module>
+        <module>lab-44-nacos-config-demo-auto-refresh</module>
+        <module>lab-44-nacos-config-demo-jasypt</module>
+        <module>lab-44-nacos-config-demo-actuator</module>
+        <module>lab-44-nacos-config-demo-multi</module>
+    </modules>
 
 
 </project>

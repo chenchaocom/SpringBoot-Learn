@@ -14,6 +14,7 @@ public class UserController {
         userDTO.setId(id);
         userDTO.setName("姓名"+id);
         userDTO.setGender(id % 2 + 1);
+        System.out.println("查询成功");
         return userDTO;
     }
 
