@@ -21,5 +21,16 @@
         <module>labx-04-sc-gateway-demo02-registry</module>
         <module>labx-04-sc-user-service</module>
         <module>labx-04-sc-gateway-demo03-config-nacos</module>
+        <module>labx-08-sc-gateway-demo03-config-apollo</module>
+        <!--灰度发布-->
+        <module>labx-08-sc-gateway-demo04</module>
+        <!--自动以过滤器-->
+        <module>labx-08-sc-gateway-demo05-custom-gateway-filter</module>
+        <!--限流-->
+        <module>labx-08-sc-gateway-demo06-rate-limiter</module>
+        <!--服务熔断-->
+        <module>labx-08-sc-gateway-demo07-hystrix</module>
+        <!--服务容错-->
+        <module>labx-08-sc-gateway-demo07-sentinel</module>
     </modules>
 </project>
