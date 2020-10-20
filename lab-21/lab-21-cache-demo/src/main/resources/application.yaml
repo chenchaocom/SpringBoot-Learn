@@ -1,0 +1,31 @@
+spring:
+  # dataSource 数据源的配置
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/lab-21-cache-demo?useSSL=false&useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: root
+
+
+# mybatis 的配置内容
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+  global-config:
+    db-config:
+      id-type: auto
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+  mapper-locations: classpath*:mapper/*.xml
+  type-aliases-package: com.opglabel.springboot.lab21.cache.dataobject
+
+# logging 日志级配置
+logging:
+  level:
+    com:
+      opglabel:
+        springboot:
+          lab21:
+            cache:
+              mapper: debug
+

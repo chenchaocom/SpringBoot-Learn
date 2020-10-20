@@ -12,15 +12,23 @@
 
 
     <modules>
-        <module>lab-01</module>
-        <module>lab-02</module>
-        <module>lab-03</module>
-        <module>labx-04</module>
-        <module>labx-05</module>
-        <module>lab-44</module>
-        <module>lab-45</module>
-        <!--redis-->
-        <module>lab-11</module>
+<!--        <module>lab-01</module>-->
+<!--        <module>lab-02</module>-->
+<!--        <module>lab-03</module>-->
+<!--        <module>labx-04</module>-->
+<!--        <module>labx-05</module>-->
+<!--        <module>lab-44</module>-->
+<!--        <module>lab-45</module>-->
+<!--        <module>lab-47</module>-->
+<!--        &lt;!&ndash;cache&ndash;&gt;-->
+<!--        <module>lab-21</module>-->
+<!--        &lt;!&ndash;redis&ndash;&gt;-->
+<!--        <module>lab-11</module>-->
+<!--        &lt;!&ndash;datasource-pool&ndash;&gt;-->
+<!--        <module>lab-19</module>-->
+
+<!--        <module>lab-28</module>-->
+        <module>lab-62</module>
     </modules>
 
 </project>
