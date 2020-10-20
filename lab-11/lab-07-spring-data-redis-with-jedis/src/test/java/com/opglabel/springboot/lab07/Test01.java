@@ -25,8 +25,8 @@ public class Test01 {
 
     @Test
     public void testStringKey2(){
-        redisTemplate.opsForValue().set("hello1","world1");
-        System.out.println(redisTemplate.opsForValue().get("hello1"));
+        redisTemplate.opsForValue().set("hello","world");
+        System.out.println(redisTemplate.opsForValue().get("hello"));
     }
 
     @Test

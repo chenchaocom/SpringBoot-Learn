@@ -1,2 +1,0 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.opglabel.springboot.lab47.YunaiServerAutoConfiguration

@@ -12,6 +12,7 @@ import org.springframework.stereotype.Service;
 @SofaService(bindings = @SofaServiceBinding(bindingType = "bolt"))
 public class UserRpcServiceImpl implements UserRpcService {
 
+    private String aa = "";
     @Override
     public UserDTO get(Integer id) {
         return new UserDTO().setId(id)
