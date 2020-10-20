@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
     public String say(){
-        System.out.println("master");
+        System.out.println("master修改");
         return "SUCCESS";
     }
 }
